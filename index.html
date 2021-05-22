@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Помощник воспитателя</title>
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__wrapper">
+        
+  
+        <div class="logo">
+           <a href="index.html">
+             <h1 class="h1">
+               Помощник воспитателя
+             </h1>
+           </a>
+        </div>
+  
+        
+
+        <div class="adaptive_menu" onclick="addmenu()">
+          <button class="header_btn">
+            <img class="header_btn--btn" src="images/menu_burger.svg" alt="btn" height="30px">
+          </button>
+        </div>
+
+        <div id="myDIV" class="rightside-menu rightside-menu--close">
+          <button class="rightside-menu--close" onclick="removemenu()">
+            <img src="images/X.png" alt="x" height="26px" width="26px">
+          </button>
+          <div class="rightside-menu__content">
+           <ul class="rightside-menu__list">
+
+            <div class="rightside-menu__list_one">
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">О Нас</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Документация</a></li>
+
+            <li class="rightside-menu__list__item"><a href="header-page/literature/literature.html" class="rightside-menu__list-link">Литература</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Рукоделие</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Оригами</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Загадки</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Мобильное приложение</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Пластелин</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Сказки</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Стихи</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Мультики</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Басни</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Настольные игры</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Музыка</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Аудиокниги</a></li>
+
+            <li class="rightside-menu__list__item"><a href="#" class="rightside-menu__list-link">Игры</a></li>
+
+            </div>
+
+           </ul>
+           
+          </div>
+        </div>
+
+      </div>
+      <div class="sub__header">
+        <h2 >Приветствуем на сайте «Помощник воспитателя», здесь вы сможете найти все необходимое для вашей комфортной работы! <a href="#wrapper-filter">
+          <br>
+          <span>Приступить</span>
+        </a> 
+        </h2>
+      </div>
+
+      
+    </div>
+  </header>
+
+  <div class="wrapper" id="body">
+  <main class="main">
+    <div class="conteiner">
+      <div id="wrapper-filter" class="wrapper-filter"> 
+        <ul class="clear">
+
+          <div class="owl-carousel">
+            <div> <li class="button all-i" data-filter="all" tabindex="-1">Всё</li> </div>
+            <div> <li class="button fairy-i" data-filter="fairy" tabindex="-2">Сказки</li></div>
+            <div> <li class="button origami-i" data-filter="origami" tabindex="-3">Оригами</li></div>
+            <div> <li class="button zagadki-i" data-filter="zagadki" tabindex="-3">Загадки</li></div>
+            <div> <li class="button scenario-i" data-filter="scenario" tabindex="-5">Сценарии</li></div>
+            <div> <li class="button development-i" data-filter="development" tabindex="-5">Карточки</li></div>
+            <div> <li class="button board-games-i" data-filter="board-games" tabindex="-3">Настольные</li></div>
+            <div> <li class="button music-i" data-filter="music" tabindex="-3">Песни</li></div>
+            <div> <li class="button plasticine-i" data-filter="plasticine" tabindex="-3">Пластелин</li></div>
+            <div> <li class="button cartoons-i" data-filter="cartoons" tabindex="-3">Мультики</li></div>
+            <div> <li class="button template-i" data-filter="template" tabindex="-4">Раскраски</li></div>
+            <div> <li class="button poems-i" data-filter="poems" tabindex="-5">Стихи</li></div>
+            <div> <li class="button cut-i" data-filter="cut" tabindex="-5">Вырезалки</li></div>
+            <div> <li class="button fable-i" data-filter="fable" tabindex="-5">Басни</li></div>
+            <div> <li class="button game-i" data-filter="game" tabindex="-3">Игры-онлайн</li></div>
+          </div>
+        </ul>
+        
+        <div class="items clear">
+          
+          <a href="poems/rasseyaniy.html">
+            <div class="rasseyaniy-img item elem poems ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Вот какой рассеянный</span>
+              </h2>
+            </div>
+          </a>
+
+
+          <a href="fable/strekoza-i-murovei.html">
+            <div class="strekoza-i-murovei-img item elem fable ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Стрекоза и муравей</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="nastolki/nastolnye.html">
+            <div class="perevrnut-img item elem board-games ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Перевертыш</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="fairy-tales/three-medvedya/three-medvedya.html">
+            <div class="trimedved-img item elem fairy">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Три медведя</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="cartoons/masha-i-medved.html">
+            <div class="mashamedved-2-img item elem cartoons">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Маша и медведь</span>
+              </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="https://drive.google.com/drive/folders/10TVv6ajr_0Nxw5tgQQL8BesscSHlEbIX?usp=sharing">
+            <div class="ng-img item elem scenario ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Новый год</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="online-game/princess-paint.html">
+            <div class="princess-paint-img item elem game">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Раскраска принцессы</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="korol-lev-img item elem music">
+              <span class="stop">0+</span>
+                <h2 class="item-card--header">
+                  <span>Король лев</span>
+                </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="development/main-color.pdf">
+            <div class="main-color-img item elem development ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Основные цвета</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="origami/samolet.html">
+            <div class="samolet-img item elem origami">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Самолётик</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="zagadki/geroiskazok.html">
+            <div class="geroiskazok-img item elem zagadki ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Герои сказок</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="plasticine/zhuchki/zhuchki.html">
+            <div class="zhuchki-img item elem plasticine ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Жучки</span>
+              </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="https://drive.google.com/drive/folders/1DDQdnhDSdZhpFCGRU-hyjXeDoQRaLkKe?usp=sharing">
+            <div class="m8-img item elem scenario ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>8 марта</span>
+              </h2>
+            </div>
+          </a>
+          
+          <a href="fairy-tales/kolobok/kolobok.html">
+            <div class="kolobok-img item elem fairy">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Колобок</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="nastolki/shashki.html">
+            <div class="shaski-img item elem board-games ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Шашки</span>
+              </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="images/cat/cut/valentinki.pdf">
+            <div class="valentinki-img item elem cut ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Валентинки</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="chnga-changa-img item elem music">
+              <span class="stop">0+</span>
+                <h2 class="item-card--header">
+                  <span>Чунга-Чанга</span>
+                </h2>
+            </div>
+          </a>
+
+          <a href="coloring/avtomobili.zip" download="">
+            <div class="avto-img item elem template">
+              <span class="stop">0+</span>
+                <h2 class="item-card--header">
+                  <span>Автомобили</span>
+                </h2>
+            </div>
+          </a>
+
+          <a href="plasticine/strekoza/strekoza.html">
+            <div class="strekoza-img item elem plasticine ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Стрекоза</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="chip-i-deil-img item elem music">
+              <span class="stop">0+</span>
+                <h2 class="item-card--header">
+                  <span>Чип и Дейл</span>
+                </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="development/sea.pdf" >
+            <div class="sea-img item elem development ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Морские обитатели</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="online-game/pig-peppa.html">
+            <div class="pig-peppa-img item elem game">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Свинка Пеппа</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="coloring/Hello Kitty.zip" download="">
+            <div class="kukli-img item elem template">
+              <span class="stop">0+</span>
+                <h2 class="item-card--header">
+                  <span>Hello Kitty</span>
+                </h2>
+            </div>
+          </a>
+
+          <a href="cartoons/vinks.html">
+            <div class="vinks-img item elem cartoons">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Винкс</span>
+              </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="images/cat/cut/halloween.pdf">
+            <div class="halloween-img item elem cut ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Хэллоуин</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="origami/medved.html">
+            <div class="medved-img item elem origami">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Медведь</span>
+              </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="development/sub-color.pdf">
+            <div class="subcolor-img item elem development ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Оттенки</span>
+              </h2>
+            </div>
+          </a>
+          
+          <a href="fairy-tales/fedino-gore/fedino-gore.html">
+            <div class="fed-gore-img item elem fairy">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Федорино горе</span>
+              </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="https://drive.google.com/drive/folders/1pHaJhLHUrkolgqXp8wP56IvrJCv-IKtM?usp=sharing">
+            <div class="f23-img item elem scenario ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>23 Февраля</span>
+              </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="images/cat/cut/motorika.pdf">
+            <div class="motorika-img item elem cut ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Моторика</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="zagadki/animalzag.html">
+            <div class="animalzag-img item elem zagadki">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Животные</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="plasticine/panda/panda.html">
+            <div class="panda-img item elem plasticine ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Панда</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="fable/vorona-i-lisica.html">
+            <div class="vorona-i-lisica-img item elem fable ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Ворона и лисица</span>
+              </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="images/cat/cut/christmas.pdf">
+            <div class="christmas-img item elem cut ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Рождество</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="poems/moydodir.html">
+            <div class="moidodir-img item elem poems ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Мойдодыр</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="online-game/road-racer.html">
+            <div class="road-racer-img item elem game">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Дорожный гонщик</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="coloring/Barbie.zip" download="">
+            <div class="barbie-img item elem template">
+              <span class="stop">0+</span>
+                <h2 class="item-card--header">
+                  <span>Barbie</span>
+                </h2>
+            </div>
+          </a>
+
+          <a href="fairy-tales/kot-v-sapogah/kot-v-sapogah.html">
+            <div class="kot-sapogah-img item elem fairy">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Кот в сапогах</span>
+              </h2>
+            </div>
+          </a>
+
+
+          <a target="_blank" href="development/figures.pdf">
+            <div class="figures-img item elem development ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Фигуры</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="fairy-tales/kurochka-ryaba/kurochka-ryaba.html">
+            <div class="kurochka-img item elem fairy">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Курочка Ряба</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="nastolki/dubl.html">
+            <div class="dubl-img item elem board-games ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Доббль</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="cartoons/smeshariki.html">
+            <div class="smeshariki-img item elem cartoons">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Смешарики</span>
+              </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="development/natural-phenomena.pdf">
+            <div class="natural-phenomena-img item elem development ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Природные являения</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="zagadki/numbers.html">
+            <div class="numbers-img item elem zagadki ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Цифры</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="fable/amur-i-bezumie.html">
+            <div class="amur-i-bezumie-img item elem fable ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Амур и безумие</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="online-game/lovely-cat.html">
+            <div class="lovely-cat-img item elem game">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>   Любимый Кот   </span> 
+              </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="development/products.pdf">
+            <div class="products-img item elem development ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Фрукты и ягоды</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="chuchelo-miu-img item elem music">
+              <span class="stop">0+</span>
+                <h2 class="item-card--header">
+                  <span>Здравствуй, детство!</span>
+                </h2>
+            </div>
+          </a>
+
+          <a href="plasticine/ulitka/ulitka.html">
+            <div class="ulitka-img item elem plasticine ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Улитка</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="coloring/Transformery.zip" download="">
+            <div class="transformer-img item elem template">
+              <span class="stop">0+</span>
+                <h2 class="item-card--header">
+                  <span>Трансформеры</span>
+                </h2>
+            </div>
+          </a>
+
+
+          <a target="_blank" href="images/cat/cut/africananimals.pdf">
+            <div class="africananimals-img item elem cut ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Африканские животные</span>
+              </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="development/dishes.pdf">
+            <div class="dishes-img item elem development ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Посуда</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="pauchok-img item elem music">
+              <span class="stop">0+</span>
+                <h2 class="item-card--header">
+                  <span>Песенка паучка</span>
+                </h2>
+            </div>
+          </a>
+
+          <a href="origami/sneshinki.html">
+            <div class="sneshinki-img item elem origami">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Снежинки</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="online-game/russian-driving.html">
+            <div class="russian-driving-img item elem game">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Русское вождение</span>
+              </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="https://drive.google.com/drive/folders/1IOBjXPimk3rIAvw4s8e_c1_Ecxo-DprU?usp=sharing">
+            <div class="vipusk-img item elem scenario ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Выпускной</span>
+              </h2>
+            </div>
+          </a>
+
+
+          <a target="_blank" href="development/learning-animal.pdf">
+            <div class="learning-animal-img item elem development ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Звуки животных</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="nastolki/loto.html">
+            <div class="loto-img item elem board-games ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Детское Лото</span>
+              </h2>
+            </div>
+          </a>
+
+
+          <a href="cartoons/nu-pogodi.html">
+            <div class="nu-pogodi-img item elem cartoons">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Ну Погоди!</span>
+              </h2>
+            </div>
+          </a>
+
+
+          <a href="plasticine/osminog/osminog.html">
+            <div class="osminog-img item elem plasticine ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Осьминог</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="poems/aybolit.html">
+            <div class="aibolit-img item elem poems ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Айболит</span>
+              </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="development/flowers.pdf">
+            <div class="flowers-img item elem development ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Цветы</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="zagadki/bukvi.html">
+            <div class="bukvi-img item elem zagadki ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Буквы</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="coloring/superheroes.zip" download="">
+            <div class="geroi-img item elem template">
+              <span class="stop">0+</span>
+                <h2 class="item-card--header">
+                  <span>Супергерои</span>
+                </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="images/cat/cut/farmanimals.pdf">
+            <div class="farmanimals-img item elem cut ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Домашние животные</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="fairy-tales/masha-i-medved/masha-i-medved.html">
+            <div class="mashamedved-img item elem fairy">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Маша и медведь</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="plasticine/porosenok/porosenok.html">
+            <div class="porosenok-img item elem plasticine ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Поросенок</span>
+              </h2>
+            </div>
+          </a>
+
+
+          <a target="_blank" href="development/home-animal.pdf">
+            <div class="home-animal-img item elem development ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Домашние животные</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="poems/telefon.html">
+            <div class="tel-img item elem poems ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Телефон</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="cartoons/mimimishki.html">
+            <div class="mimimishki-img item elem cartoons">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Ми-ми-мишки</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="oxrana-img item elem music">
+              <span class="stop">0+</span>
+                <h2 class="item-card--header">
+                  <span>Песня охраны</span>
+                </h2>
+            </div>
+          </a>
+
+          <a href="origami/serdechko.html">
+            <div class="serdechko-img item elem origami">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Сердечко</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="online-game/one_one.html">
+            <div class="one-one-img item elem game">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>   1+1   </span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="plasticine/sobaka/sobaka.html">
+            <div class="sobaka-img item elem plasticine ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Собака</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="poems/muha-v-bane.html">
+            <div class="muha-dania-img item elem poems ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Муха и баня</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="cartoons/fiksiki.html">
+            <div class="fiksiki-img item elem cartoons">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Фиксики</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="poems/tarakaniche.html">
+            <div class="tarakanische-img item elem poems ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Тараканище</span>
+              </h2>
+            </div>
+          </a>
+
+
+
+          <a target="_blank" href="development/wild-animals.pdf">
+            <div class="wild-animals-img item elem development ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Дикие животные</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="fable/dva-golubya.html">
+            <div class="dva-golubyai-img item elem fable ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Два голубя</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="poems/buterbrod.html">
+            <div class="buter-img item elem poems ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Бутердрод</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="poems/krokodil.html">
+            <div class="krokodil-img item elem poems ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Крокодил</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="plasticine/cherepaha/cherepaha.html">
+            <div class="cherepaha-img item elem plasticine ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Черепаха</span>
+              </h2>
+            </div>
+          </a>
+
+          <a href="coloring/space.zip" download="">
+            <div class="kosmos-img item elem template">
+              <span class="stop">0+</span>
+                <h2 class="item-card--header">
+                  <span>Космос</span>
+                </h2>
+            </div>
+          </a>
+
+          <a target="_blank" href="development/birds.pdf">
+            <div class="birds-img item elem development ">
+              <span class="stop">0+</span>
+              <h2 class="item-card--header">
+                <span>Птицы</span>
+              </h2>
+            </div>
+          </a>
+
+        </div>
+      </div>
+      <div class="a"></div>
+    </div>
+  </main>
+  
+
+  <footer class="footer">
+
+    <div class="footer-logo">
+      <a href="#header">
+        <h2 class="footer-logo-deskr">
+          Помощник воспитателя
+        </h2>
+      </a>
+    </div>
+
+    <div class="footer_mail">
+      <form action="">
+        <button type="footer-button">Хотите что-то добавить?</button>
+      </form>
+    </div>
+
+    <div class="footer-forum">
+
+      <h3 class="footer-forum-deskr">
+        Хотите поделиться опытом?
+      </h3>
+
+      <div class="footer-forum-img">
+        <a href="https://vk.me/join/AJQ1d1A/phts/HAaR9FaMFjH">
+          <img src="images/footer/vk_logo_icon.svg" height="50px" alt="" class="footer-forum-img vk">
+        </a>
+        <a href="https://t.me/joinchat/lQOUkladScwwZGI6">
+          <img src="images/footer/telegram_logo_icon.svg" height="50px" alt="" class="footer-forum-img tg">
+        </a>
+        <a href="https://chat.whatsapp.com/LZrAFEW7D93IpjEYPukmjF">
+          <img src="images/footer/whatsapp_logo_icon.svg" height="50px" alt="" class="footer-forum-img w">
+        </a>
+      </div>
+
+    </div>
+
+  </footer>
+
+  </div>
+  
+
+
+  <script src="js/main.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">
+</script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      var mql = window.matchMedia('all and (max-width: 570px)');
+    if (mql.matches) {
+      $(".owl-carousel").owlCarousel({
+        items: 3,
+        autoWidth: false,
+        margin: 3
+      });
+    } else {
+      $(".owl-carousel").owlCarousel({
+        items: 4,
+        autoWidth: false,
+        margin:10
+      });
+    }
+  
+});
+
+
+  </script>
+</body>
+
+</html>
